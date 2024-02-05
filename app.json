@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "burroSelector",
+    "slug": "burroSelector",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#222222"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#222222"
+      },
+      "package": "com.hamiapp.hami"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3f24c927-72a1-4061-99b6-1feafdacf347"
+      }
+    }
+  }
+}
